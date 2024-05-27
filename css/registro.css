@@ -1,0 +1,92 @@
+*{
+    font-family: "Mohave", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+#formExtra{
+    text-decoration: none!important;
+}
+
+.buttonReg {
+    color: #00A19B
+}
+
+#tituReg{
+    font-family: "Kite One", sans-serif; 
+}
+
+/* config HEADER - NAV */
+nav {
+    background-color: #00A19B;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.titulo {
+    font-size: 50px;
+    border-style: double;
+    border-radius: 5px;
+    border-color: ghostwhite;
+    display: flex;
+    justify-content: end;
+    padding-right: 5px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contenedornav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.anav {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Mohave", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    padding: 20px;
+    border-color: whitesmoke;
+    text-decoration: none!important;
+}
+
+.anav:hover {
+    border-radius: 5px;
+    background-color: #565F64;
+}
+
+.anav:visited {
+    color: #FFFFFF;
+}
+
+/* config FOOTER */
+
+.contendenorfooter {
+    display: flex;
+    justify-content: center;
+    background-color: #00A19B;
+    padding: 20px;
+}
+
+.afooter {
+    font-size: 20px;
+    font-family: "Mohave", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    padding: 10px;
+    border-color: whitesmoke;
+    text-decoration: none!important;
+}
+
+.afooter:hover {
+    border-radius: 5px;
+    background-color: #565F64
+}
+
+.afooter:visited {
+    color: #FFFFFF;
+}
+
