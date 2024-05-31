@@ -52,7 +52,8 @@ nav {
 .anav:visited {
     color: #FFFFFF;
 }
-#icoLog{
+
+#icoLog {
     width: 30px !important;
     height: auto !important;
 }
