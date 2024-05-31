@@ -16,7 +16,7 @@ let miheader = `
         <a class="anav" href="surf.html">SURF</a>
         <a class="anav" href="contacto.html">CONTACTO</a>
         <a class="anav" href="quienessomos.html">QUIENES SOMOS</a>
-        <a class="anav" id="imgLogo" href="login.html"><img src="img/usuario.png" alt="Login" width="30px" heignt="auto"></a>
+        <a class="anav" id="imgLogo" href="login.html"><img id="icoLog" src="img/usuario.png" alt="Login" width="30px" heignt="auto"></a>
         </div>
     </nav>
 
