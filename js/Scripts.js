@@ -57,7 +57,23 @@ function limpiarFormulario() {
     document.getElementById("contactForm").reset();
 }
 
+// JS de Login
 
+function validar(){
+    var nomUsu = document.getElementById("Usuario").value 
+    var passUsu = document.getElementById("Contrasenia").value
+    console.log(nomUsu)
+    console.log(passUsu)
+    if(nomUsu  == ""){
+        window.alert ("Debe ingresar su usuario")
+        }
+    if(passUsu == ""){
+        window.alert("Debe ingresar su contraseña")
+        } 
+    if (nomUsu && passUsu !== ""){
+            window.location.href = "index.html";
+            }     
+}
 
 //FOOTER
 
