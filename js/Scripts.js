@@ -71,7 +71,7 @@ function validar(){
         window.alert("Debe ingresar su contraseña")
         } 
     if (nomUsu && passUsu !== ""){
-            window.location.href = "index.html";
+            window.location.href = "tiempo.html";
             }     
 }
 
