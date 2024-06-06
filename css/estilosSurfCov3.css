@@ -144,7 +144,11 @@ h3 {
     align-items: center;
     justify-content: center;
 }
- 
+
+#icoLog{
+    width: 30px !important;
+    height: auto !important;
+}
 
 /* -- Estilos para stuff.html*/
 
@@ -287,6 +291,153 @@ h3 {
     width: 100px;
 }
 
+/* Connfig API*/
+
+.clima1 {
+    font-size: 17px;
+    text-align: center;
+    font-family: "Kite One", sans-serif;
+    color: black;
+    margin: 4px
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Mohave", sans-serif;
+  }
+  
+  hr {
+    border-color: darkcyan;
+  }
+  
+  .section {
+    border: 2px solid whitesmoke;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid whitesmoke;
+  }
+  
+  .resultado {
+    border: 2px solid black;
+    background-color: #00A19B;
+  }
+  
+  .card2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-image: url("https://images.pexels.com/photos/12145097/pexels-photo-12145097.jpeg");
+    background-size: contain;
+  }
+  
+  .resultado2 {
+    border: 2px solid black;
+    background-color: #00A19B;
+    border-radius: 15px;
+    padding: 2%;
+    backdrop-filter: invert(80%);
+  }
+  
+  .resultado2::before {
+    background-color: rgba(0,0,0,0.9);
+  }
+  
+  .temp {
+    font-family: "Mohave", sans-serif;
+    font-size: 6vw;
+    text-align: left; 
+  font-weight: bold; 
+  background: #000; 
+  -webkit-background-clip: text; 
+  -moz-background-clip: text; 
+  background-clip: text; 
+  color: transparent; 
+  text-shadow: 0px 3px 3px rgba(255,255,255,0.2),0px -1px 1px rgba(0,0,0,0.3)
+  }
+  
+  .desc {
+    font-family: "Mohave", sans-serif;
+    font-size: 5vw;
+    text-transform: capitalize;
+    text-align: left; 
+    font-weight: bold; 
+    background: #202020; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.2),0px -1px 1px rgba(0,0,0,0.3)
+  }
+  
+  .data_extra {
+    font-family: "Mohave", sans-serif;
+    font-size: 3vw;
+    display: flex;
+  }
+  
+  .sen_term {
+    font-weight: bolder;
+  }
+  
+  .nubes {
+    background-image: url("https://images.pexels.com/photos/12145097/pexels-photo-12145097.jpeg");
+  }
+  
+  .lluvia {
+    background-image: url("https://picsum.photos/id/171/400/500");
+  }
+  
+  .nieve {
+    background-image: url("https://picsum.photos/id/559/400/500");
+  }
+  
+  .nubes_disp {
+    background-image: url("https://picsum.photos/id/29/1280/960");
+  }
+  
+  .cielo_claro {
+    background-image: url("https://picsum.photos/id/16/1280/960");
+    .resultado2 {
+      background-image: url("https://picsum.photos/id/16/1280/960");
+      border: darkcyan 2px solid;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+      padding: 2%;
+    }
+  }
+  
+  .soleado {
+    background-image: url("https://picsum.photos/id/789/1280/960");
+  
+  }
+  
+  .nieve {
+    background-image: url("https://picsum.photos/id/790/1280/960");
+  }
+  
+  .muy_nuboso {
+    background-image: url("https://picsum.photos/id/38/400/500");
+  }
+  
+  
+  @media only screen and (max-width: 380px) {
+    .cielo_claro {
+      background-image: url("https://picsum.photos/id/16/480/360");
+      .resultado2 {
+        background-image: url("https://picsum.photos/id/16/480/360");
+        border: darkcyan 2px solid;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        padding: 2%;
+      }
+    }}
+  
+
+
 /* ---------------------------------------------------------------------------------- */
 /* config FOOTER */
 
@@ -349,3 +500,19 @@ h3 {
         background-color: #FFFFFF;
     }
 }
+
+
+
+@media only screen and (max-width: 700px) {
+    .Imagenes_tablas {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .Imagenes_tablas {
+      width: 100%;
+    }
+  }
+
