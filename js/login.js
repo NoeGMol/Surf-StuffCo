@@ -8,8 +8,17 @@ localStorage.setItem("usuarioLog", nomUsu)
 localStorage.setItem("contraUsuLog", passUsu)
 
 function validar(){
-    if(nomUsu || passUsu == NULL){
-        console.log("Debe completar todos los campos requeridos")
-    } else { 
-    }
+    var nomUsu = document.getElementById("Usuario").value 
+    var passUsu = document.getElementById("Contrasenia").value
+    console.log(nomUsu)
+    console.log(passUsu)
+    if(nomUsu  == ""){
+        window.alert ("Debe ingresar su usuario")
+        }
+    if(passUsu == ""){
+        window.alert("Debe ingresar su contraseña")
+        } 
+    if (nomUsu && passUsu !== ""){
+            window.location.href = "tiempo.html";
+            }     
 }
